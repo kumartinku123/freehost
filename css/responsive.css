@@ -1,0 +1,330 @@
+@media (max-width:991px) {
+    .header_links ul {
+        gap: 25px;
+    }
+
+    .footer_logo {
+        width: 33.33%;
+    }
+
+    .footer_text {
+        width: 33.33%;
+    }
+
+    .footer_sub {
+        width: 33.33%;
+    }
+
+    button.sub_btn {
+        width: 300px;
+    }
+
+    .footer-email-input input {
+        margin-bottom: 22px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .overlaynav {
+        background: rgb(0 0 0 / 90%);
+        width: 0%;
+        position: fixed;
+        top: 0;
+        overflow: auto;
+        height: 100%;
+        right: 0;
+        z-index: 999;
+        transition: 0.3s;
+    }
+
+    .nav_bg .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .top_header {
+        flex-direction: column-reverse;
+    }
+
+    .top_header_social_media {
+        gap: 25px;
+        justify-content: center;
+        float: none;
+    }
+
+    .header_links ul {
+        display: block;
+        text-align: center;
+    }
+
+    .header_links ul li {
+        padding-block-end: 50px;
+    }
+
+    .header_links ul li:last-child {
+        padding-block-end: 0px;
+    }
+
+    .menu_btn,
+    .close_btn {
+        display: block;
+    }
+
+    .open {
+        width: 100%;
+    }
+
+    .container {
+        padding-inline: 15px;
+    }
+
+    .header_banner_sec {
+        flex-direction: column-reverse;
+    }
+
+    .banner_left_sec {
+        width: 100%;
+        text-align: center;
+    }
+
+    .who_about_left_sec {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner_right_sec {
+        width: 50%;
+    }
+
+    .who_about_right_sec {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .services_wrapper_section .services_inner {
+        width: calc(50% - 20px);
+    }
+
+    .inner_contact_section p {
+        padding-inline: 0;
+    }
+
+    .blog_inner {
+        width: calc(50% - 20px);
+        margin-bottom: 50px;
+    }
+
+    .blog_inner:last-child {
+        margin-bottom: 00px;
+    }
+
+    .footer_logo {
+        width: 50%;
+    }
+
+    .footer_text {
+        width: 50%;
+    }
+
+    .footer_sub {
+        width: 100%;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .nav_bg .menu_btn {
+        top: auto;
+    }
+
+    .nav_bg .header_logo {
+        width: 70%;
+    }
+
+    .header_logo {
+        width: 26%;
+    }
+
+    .nav_bg .header_links ul {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:667px) {}
+
+@media (max-width:568px) {
+    .accordian_section {
+        width: 100%;
+    }
+
+    .faq_and_accordian_sec .faq_section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .services_wrapper_section .services_inner {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .blog_inner {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer_links ul {
+        gap: 0;
+    }
+
+    .footer_links ul li {
+        padding-inline-end: 30px;
+        margin-block-end: 20px;
+    }
+
+    .footer_links ul li:last-child {
+        padding-inline-end: 0px;
+        margin-block-end: 0px;
+    }
+
+    .footer-email-input input {
+        margin-bottom: 22px;
+    }
+
+    .footer-email-input {
+        text-align: center;
+    }
+
+    button.sub_btn {
+        width: 300px;
+    }
+
+    .footer-email-input input {
+        margin-right: 0px;
+    }
+
+    .whats_img a {
+        font-size: 14px;
+    }
+
+    .nav_bg .top_header {
+        flex-direction: row;
+    }
+
+    .footer_text {
+        width: 100%;
+        text-align: center;
+        padding: 21px 0 5px 0;
+    }
+
+    .footer_logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_banner_sec .banner_left_sec h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .header_banner_sec .banner_left_sec span {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .main_btn button {
+        font-size: 16px;
+    }
+
+    h2.main_heading {
+        font-size: 38px;
+    }
+
+    .services_header p {
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--black-color);
+    }
+
+    .inner_contact_section p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .faq_and_accordian_sec .faq_section p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .faq_and_accordian_sec .faq_section h4 {
+        font-size: 22px;
+    }
+
+    .blog_header h4 {
+        font-size: 22px;
+        line-height: 28px;
+
+    }
+
+    .footer_wrapper {
+        padding-bottom: 40px;
+    }
+
+    .footer-email-input input {
+        padding: 15px 20px;
+    }
+
+    button.sub_btn {
+        padding: 15px 20px;
+    }
+}
+
+
+@media(max-width : 480px) {
+
+    .close_btn,
+    .menu_btn {
+        top: 40px;
+    }
+}
+
+@media(max-width : 414px) {
+    .header_banner_sec .banner_left_sec h2 {
+        font-size: 36px;
+    }
+
+    .header_banner_sec .banner_left_sec span {
+        font-size: 36px;
+    }
+
+    .services_header p {
+        font-size: 16px;
+    }
+
+    .inner_contact_section p {
+        font-size: 18px;
+    }
+
+    h2.main_heading {
+        font-size: 36px;
+    }
+
+    .footer_inner h3 {
+        color: var(--white-color);
+        font-size: 18px;
+    }
+
+    .top_header_social_media {
+        gap: 15px;
+    }
+}
+
+@media(max-width : 375px) {
+    .top_header_social_media img {
+        width: 20px;
+    }
+
+    .whats_img a {
+        font-size: 12px;
+    }
+}
